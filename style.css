@@ -1,0 +1,17 @@
+#containerOuter {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+}
+
+.columnDiv {
+    display: flex;
+    height: 50px;
+}
+
+.rowDiv {
+/*    border-color: red;
+    border-width: 1px;
+    border-style: solid; */
+    width: 50px;
+}
