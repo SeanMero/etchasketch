@@ -6,12 +6,13 @@
 
 .columnDiv {
     display: flex;
-    height: 50px;
+    height: 60px;
 }
 
 .rowDiv {
-/*    border-color: red;
+    width: 60px;
+    /* [debug]
+    border-color: red;
     border-width: 1px;
     border-style: solid; */
-    width: 50px;
 }

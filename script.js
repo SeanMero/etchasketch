@@ -17,3 +17,14 @@ columnDivs.forEach(element => {
         element.appendChild(newDiv);
     };
 });
+
+//change rowDiv color on hover
+const rowDivCollection = document.getElementsByClassName("rowDiv");
+const rowDivs = Array.from(rowDivCollection);
+
+rowDivs.forEach(element => {
+    element.addEventListener("mouseenter", function(e) {
+        // [debug] console.log("Color changed!")
+        e.target.setAttribute("style", "background: blue;");
+    });
+});
