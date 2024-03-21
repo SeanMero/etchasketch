@@ -2,16 +2,18 @@
     display: flex;
     flex-flow: column wrap;
     justify-content: space-around;
+    height: 900px;
+    width: 900px;
 }
 
 .columnDiv {
     display: flex;
-    height: 60px;
+    flex-grow: 1;
 }
 
 .rowDiv {
-    width: 60px;
-    /* [debug]
+    flex-grow: 1;
+    /* [debug] 
     border-color: red;
     border-width: 1px;
     border-style: solid; */
