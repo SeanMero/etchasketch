@@ -21,11 +21,9 @@ columnDivs.forEach(element => {
 //change rowDiv to a random color on hover
 let rowDivCollection = document.getElementsByClassName("rowDiv");
 let rowDivs = Array.from(rowDivCollection);
-//let randomColor = Math.floor(Math.random()*16777215).toString(16);
 
 rowDivs.forEach(element => {
     element.addEventListener("mouseenter", function(e) {
-        // [debug] console.log("Color changed!")
         e.target.style.background = "#" + Math.floor(Math.random()*16777215).toString(16);
     });
 });
